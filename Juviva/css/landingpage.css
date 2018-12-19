@@ -1,0 +1,418 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", "Sans Serif";
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  background-color: #2E302F;
+
+}
+.forsidebillede{
+  width: 42%;
+  height: auto;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+
+.forside{
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 50px 30px;
+  border: 0;
+  font-weight: bold;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+  background-color: rgba(0, 255, 201, 0.55);
+  color: #FFF;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+/* Add a rollover background colour but keep the text white */
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: rgba(46, 145, 252, 0.55);
+  color: #fff;
+}
+
+
+.vl {
+  border-left: 5px solid #00FFC9;
+  height: 450px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+.hr {
+  border-left: 750px solid #00FFC9;
+  height: 4px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+}
+
+.hr2 {
+  border-left: 250px solid #00FFC9;
+  height: 4px;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.tekstOmJuviva{
+  text-align: justify;
+  padding: 0px 17%;
+  font-size: x-large;
+  letter-spacing: 2px;
+
+}
+
+.overskrift {
+  font-size: 65px;
+  padding-top: 5%;
+}
+
+.overskrift2 {
+  font-size: 45px;
+  padding-top: 2%;
+}
+
+.overskrift3 {
+  font-size: 20px;
+    padding-top: 2%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+
+.tekst {
+  width: 32%;
+  text-align: justify;
+  padding: 0px;
+}
+
+
+.speciale {
+  text-transform: uppercase;
+  font-size: 15px;
+  border: none;
+  text-shadow: 0 0 5px #000;
+  z-index: 1;
+  text-align: center;
+  background-image: url("../img/backimage.jpg");
+  height:110%;
+  background-size: cover;
+
+}
+.speciale > div {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.speciale > div > a {
+
+}
+
+#mig {
+
+}
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+   }
+
+  .header {
+     /*  NAVBAR  */
+     width: 100%;
+     height: 100%;
+   }
+
+	 .navbar{
+     width: 95%;
+         padding: 20px;
+         position: fixed;
+         top: 0px;
+         text-align: right;
+         transition: .5s;
+	   }
+
+	 .navbar ul li{
+     list-style-type: none;
+     display: inline-block;
+     text-decoration: none;
+     padding: 0px 8px;
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+     transition: .5s;
+	   }
+
+	 .navbar ul li a:hover{
+	  color: #00ffc9;
+	   }
+   .navbar ul li:hover{
+    color: #00ffc9;
+       }
+
+   .navbar ul li a{
+    text-decoration: none;
+    color: white;
+   }
+
+.streg {
+  border-right: 1px solid #00FFC9
+}
+
+.streg1 {
+  border-left: 1px solid #00FFC9
+}
+
+/* MAIN */
+main {
+  overflow-y: auto;
+  height: 100vh;
+  background-color: ##2E302F;
+  color: white;
+  overflow-x: hidden;
+
+}
+main > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 20px;
+}
+main > h2 {
+  text-align: center;
+}
+main .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main p {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 15px 12px;
+}
+
+/*  FOOTER  */
+footer {
+  height: 260px;
+}
+footer > p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+  line-height: 2em;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+main footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 255, 201, 0.55);
+  text-align: center;
+  padding-top: 20px;
+  height: 100px;
+
+}
+main footer > p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 5px;
+  line-height: 2em;
+  text-decoration: none;
+  padding-top: 10px;
+}
+main footer > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+main iframe {
+  width: 300px;
+  height: 300px;
+  border-style: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*  SOCIAL MEDIA ICONS  */
+i.fa-facebook-square, i.fa-instagram, i.fa-linkedin {
+  cursor: pointer;
+  padding: 8px 8px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-facebook-square:hover {
+  background-color: #3d5b99;
+  border-radius: 15%;
+  text-decoration: none;
+}
+
+.fa-instagram:hover {
+  background-color: #E4405F;
+  border-radius: 15%;
+  text-decoration: none;
+}
+.fa-linkedin:hover {
+  background-color: #3d5b99;
+  border-radius: 15%;
+  text-decoration: none;
+}
+
+.flex-billeder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+  white-space: pre;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.flex-container {
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.video {
+  margin-left: 14.5%;
+  margin-top: 2%;
+}
+
+
+
+/*  MEDIA QUERY TABLET */
+@media screen and (min-width: 768px) {
+  header {
+    /*  BAR  */
+  }
+  header .main-nav > .nav-wrapper {
+    /*  LOGO  */
+  }
+  header .main-nav > .nav-wrapper .logo {
+    position: absolute;
+    left: 20px;
+    margin-top: 20px;
+  }
+  header .main-nav > .nav-wrapper > ul {
+    text-align: right;
+  }
+  header .main-nav > .nav-wrapper > ul > li {
+    padding-top: 17px;
+  }
+
+  /* MAIN AND GOOGLE MAPS*/
+  main iframe {
+    height: 500px;
+    width: 700px;
+  }
+  .flex-billeder {
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  /* FOOTER */
+  footer {
+    height: 350px;
+  }
+  /* Create three equal columns that floats next to each other */
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+}
+/* MEDIA QUERY LAPTOP OR DESKTOP */
+@media screen and (min-width: 1024px) {
+  /* MAIN */
+  main {
+    /* GOOGLE MAPS */
+  }
+  main h2 {
+    padding: 20px;
+  }
+  main .flex-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+
+  }
+  main .direction {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .row-direction {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main p > a {
+    color: #000;
+  }
+
+  main p {
+    font-size: 20px;
+  }
+  main iframe {
+    width: 500px;
+    height: 500px;
+  }
+  .flex-billeder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
